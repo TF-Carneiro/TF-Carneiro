@@ -147,7 +147,7 @@ Me chamo Thiago Fernandes, tenho 33 anos e moro em São Paulo. Sou formado em Ge
     align="left" 
     alt="GitHub Stats" 
     height="200"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TF-Carneiro&theme=dark&custom_title=Tecnologias&langs_count=9" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TF-Carneiro&theme=dark&custom_title=Tecnologias&langs_count=9&layout=compact" 
   />
 
 </p>
