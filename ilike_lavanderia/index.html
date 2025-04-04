@@ -268,7 +268,7 @@
         body: JSON.stringify(formData)
       })
         .then(function (response) {
-          messageDiv.textContent = "Reserva efetuada para " + nomeInput + " no apartamento válido, agendado para " + dataFormatada + " das " + horarioInicioInput + " às " + horarioFimInput + "!";
+          messageDiv.textContent = "Reserva efetuada para " + nomeInput + ", agendado para " + dataFormatada + " das " + horarioInicioInput + " às " + horarioFimInput + "!";
           messageDiv.classList.remove("error");
           messageDiv.classList.add("success");
           // Opcional: resetar o formulário
