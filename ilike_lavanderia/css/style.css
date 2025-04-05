@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Body com fundo cinza conforme a imagem */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #C0C0C0; /* Tom de cinza aproximado ao da imagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Caixa de formulário com fundo verde e textos em branco */
+.container {
+  background-color: #008B2C; /* Tom de verde aproximado ao desejado */
+  color: #fff; /* Texto branco */
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: inherit; /* Herdará o branco do container */
+  margin: 0;
+}
+
+form {
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #fff; /* Labels em branco para melhor contraste */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000; /* Texto em preto para facilitar a leitura */
+}
+
+.time-container {
+  display: flex;
+  gap: 1em;
+}
+
+.time-field {
+  flex: 1;
+}
+
+button {
+  width: 100%;
+  padding: 0.75em;
+  border: none;
+  border-radius: 4px;
+  background-color: #005500; /* Tom de verde mais escuro para o botão */
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003800; /* Tom ainda mais escuro no hover */
+}
+
+.message {
+  margin-top: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: #00ff00; /* Pode ser ajustado conforme sua preferência */
+}
